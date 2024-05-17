@@ -1,8 +1,8 @@
 class Ohno < Formula
   desc "Static blog generator, opinionated, probably works?"
   homepage "https://github.com/nakajima/ohno"
-  url "https://github.com/nakajima/ohno/releases/download/0.0.15/ohno.zip"
-  sha256 "fd089e76395cada18e6ed5b46522905ce9bf7f72fd15f33bfe8b0b3de2100fa7"
+  url "https://github.com/nakajima/ohno/releases/download/0.0.16/ohno.zip"
+  sha256 "0c6394e56adafd20f63aa152e9d906e98c4e006c73c0a1e859e8bc7147c57e9f"
   license "BSD-3-Clause"
 
   def install
