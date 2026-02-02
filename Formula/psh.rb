@@ -1,7 +1,7 @@
 class Psh < Formula
   desc "CLI client for sending Apple Push Notifications"
   homepage "https://github.com/nakajima/psh"
-  version "0.1.11"
+  version "0.1.12"
   license "MIT"
 
   on_macos do
