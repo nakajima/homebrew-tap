@@ -1,28 +1,28 @@
 class Psh < Formula
   desc "CLI client for sending Apple Push Notifications"
   homepage "https://github.com/nakajima/psh"
-  version "0.1.17"
+  version "0.1.18"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/nakajima/psh/releases/download/v#{version}/psh-aarch64-apple-darwin.tar.gz"
-      sha256 "bfab329b77e8f8a52b20732f97d9e56ba557c0894ff99a4193a28d373a04a4a2"
+      sha256 "e781575bc49d29c9d751c64f571df846e9390206f83296cae4d4ede235325d47"
     end
     on_intel do
       url "https://github.com/nakajima/psh/releases/download/v#{version}/psh-x86_64-apple-darwin.tar.gz"
-      sha256 "168916a878493c5a5b9bd51d739ae1542850d866605f844fee2fbd6f3b6881a6"
+      sha256 "d123ea81caac47f57ef32ac8ec62f2801ba8249e90489d1e93a1f13d1ff7cb55"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/nakajima/psh/releases/download/v#{version}/psh-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "630b40acb5f25a780222ab778e0f1f90bca109ee4c49cdd118bfe76b70c9d268"
+      sha256 "84c66636f2a977cae857c25e0e91309686e5b724d3e29ab19c3759e339a7fada"
     end
     on_intel do
       url "https://github.com/nakajima/psh/releases/download/v#{version}/psh-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b496f47b9b3000b9d43991527f3e9bc2962039d1c5f5415b8578b6d32462ebd8"
+      sha256 "c8b03834bc10ae42fd8cf5813392a570390e0746968e164a932bd2b9e214876e"
     end
   end
 
