@@ -6,11 +6,11 @@ class Releasor2000 < Formula
   on_macos do
     on_arm do
       url "https://github.com/nakajima/releasor2000/releases/download/v0.0.6/releasor2000-0.0.6-aarch64-apple-darwin.tar.gz"
-      sha256 "efcd5a5865db2a0ed3d0f1c5277cbf1f820c1d8688491503616b8831d5f0dca1"
+      sha256 "3e1e57a8f96daf1ec9f1384cfb9c4f06729a569d026ecf5c65f595a79dbd06bd"
     end
     on_intel do
       url "https://github.com/nakajima/releasor2000/releases/download/v0.0.6/releasor2000-0.0.6-x86_64-apple-darwin.tar.gz"
-      sha256 "9b8f53f2f4ff9481e7e2c282f5eb03abfd82557be8d8609731d253e46fcadac5"
+      sha256 "c781f4cd45c73904cafda6f09d7c31efc058ceb44c73dce8177bbc5c1c38a593"
     end
   end
 
