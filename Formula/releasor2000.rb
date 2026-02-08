@@ -1,16 +1,16 @@
 class Releasor2000 < Formula
   desc "releasor2000"
   homepage "https://github.com/nakajima/releasor2000"
-  version "0.0.5"
+  version "0.0.6"
 
   on_macos do
     on_arm do
-      url "https://github.com/nakajima/releasor2000/releases/download/v0.0.5/releasor2000-0.0.5-aarch64-apple-darwin.tar.gz"
-      sha256 "552141cb7e6a4e1568b0d49118effebee6a7a5b102e9b74d268b4f688c78e249"
+      url "https://github.com/nakajima/releasor2000/releases/download/v0.0.6/releasor2000-0.0.6-aarch64-apple-darwin.tar.gz"
+      sha256 "efcd5a5865db2a0ed3d0f1c5277cbf1f820c1d8688491503616b8831d5f0dca1"
     end
     on_intel do
-      url "https://github.com/nakajima/releasor2000/releases/download/v0.0.5/releasor2000-0.0.5-x86_64-apple-darwin.tar.gz"
-      sha256 "68826491c132c87392c407082f9064d79ffc1f5462a68935f0392a89f125c3b9"
+      url "https://github.com/nakajima/releasor2000/releases/download/v0.0.6/releasor2000-0.0.6-x86_64-apple-darwin.tar.gz"
+      sha256 "9b8f53f2f4ff9481e7e2c282f5eb03abfd82557be8d8609731d253e46fcadac5"
     end
   end
 
